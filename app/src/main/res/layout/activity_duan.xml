@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityDuan"
+    android:background="@drawable/bg_information">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarSubject"
+        app:title="Dự Án Đang Mở Bán"
+        android:layout_width="match_parent"
+        android:background="@color/dialog"
+        app:titleTextColor="@color/text_dialog"
+        android:layout_height="?attr/actionBarSize"></androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:id="@+id/listviewSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

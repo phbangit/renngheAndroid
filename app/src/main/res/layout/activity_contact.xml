@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityAddDuan"
+    android:background="@drawable/bg_information">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarSubject"
+        app:title="Gửi góp ý của bạn đến Công Ty"
+        android:layout_width="match_parent"
+        android:background="@color/dialog"
+        app:titleTextColor="@color/text_dialog"
+        android:layout_height="?attr/actionBarSize"></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="@color/front"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="MỌI GÓP Ý XIN LIÊN HỆ QUA:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/front"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Zalo: 035797979"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/front"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="-----"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <Button
+        android:id="@+id/button_OK"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/background_button"
+        android:text="OK"
+        android:textColor="@color/text_dialog"></Button>
+
+
+
+</LinearLayout>

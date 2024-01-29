@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_information"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="303dp"
+        android:layout_height="314dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edt_tendangnhap"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/size10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/kieu_edt"
+        android:drawableLeft="@drawable/icon_manhanvien"
+        android:drawablePadding="@dimen/size10dp"
+        android:hint="@string/tendangnhap"
+        android:padding="@dimen/size10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/edt_matkhau"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/size10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/kieu_edt"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="@dimen/size10dp"
+        android:hint="@string/nhapmatkhau"
+        android:padding="@dimen/size10dp"
+        android:password="true"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_tendangnhap" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:text="Đăng Nhập"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_dangky" />
+
+    <TextView
+        android:id="@+id/txt_dangky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Đăng Ký Tài Khoản ?"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_matkhau" />
+
+    <TextView
+        android:id="@+id/txt_resetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Quên Mật Khẩu"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_matkhau" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

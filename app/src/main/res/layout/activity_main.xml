@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_information"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="358dp"
+        android:layout_height="374dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:text="Student Management"
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:textStyle="bold"></ImageView>
+
+    <Button
+        android:id="@+id/truso"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_button"
+        android:drawableLeft="@drawable/truso"
+        android:drawablePadding="10dp"
+        android:text="trụ Sở"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"></Button>
+
+
+    <Button
+        android:id="@+id/buttonDuan"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/duan"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/background_button"
+        android:text="Quản Lý Dự Án"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/button_Nhanvien"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/nhanvien"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/background_button"
+        android:text="Quản Lý Nhân Viên"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+    <Button
+        android:id="@+id/button_gopy"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/contact"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/background_button"
+        android:text="Góp Ý"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/exit"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/background_button"
+        android:text="Thoát"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <TextView
+        android:id="@+id/ButtonAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="AMS COMPANY"
+        android:textColor="#373737"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>

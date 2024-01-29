@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Create_user"
+    android:background="@drawable/bg_information">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký Tài Koản"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#454545"
+        android:layout_above="@+id/khungdangky"/>
+    <LinearLayout
+        android:id="@+id/khungdangky"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/edt_tendangnhap"
+            android:background="@drawable/kieu_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/icon_manhanvien"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/tendangnhap"
+            android:padding="@dimen/size10dp" />
+        <EditText
+            android:id="@+id/edt_matkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/kieu_edt"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/nhapmatkhau"
+            android:padding="@dimen/size10dp"
+            android:password="true"/>
+        <EditText
+            android:id="@+id/cr_hoten"
+            android:background="@drawable/kieu_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/icon_nhanvien"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="Họ Và Tên"
+            android:padding="@dimen/size10dp" />
+        <RadioGroup
+
+            android:orientation="horizontal"
+            android:padding="@dimen/size10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/tendangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/kieu_edt"
+            android:drawableLeft="@drawable/icon_date"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/ngaysinh"
+            android:padding="@dimen/size10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_create_user"
+                android:background="@color/button"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dongy"
+                android:padding="@dimen/size10dp"
+                android:layout_margin="@dimen/size10dp"/>
+            <Button
+                android:id="@+id/btn_noCreate"
+                android:background="@color/button"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thoat"
+                android:layout_margin="@dimen/size10dp"
+                android:padding="@dimen/size10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

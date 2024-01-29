@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AMS Company</string>
+    <string name="tendangnhap">Tên Đăng Nhập</string>
+    <string name="nhapmatkhau"> Mật Khẩu</string>
+    <string name="ngaysinh"> Ngày Sinh</string>
+    <string name="cmnd"> Chứng Minh Nhân Dân</string>
+    <string name="dongy"> Đồng Ý</string>
+    <string name="thoat"> Thoát</string>
+    <string name="dangky"> ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="phongban">Phòng Ban</string>
+    <string name="nhanvien">Nhân Viên</string>
+    <string name="duan">Dự Án</string>
+    <string name="ql_duan"> Quản Lý Dự Án</string>
+    <string name="duanmoi">Dự Án Mới</string>
+    <string name="baocao">Báo Cáo</string>
+    <string name="khachhang">Khách Hàng</string>
+
+    <string name="hdqt">Quản Trị</string>
+
+
+    <string name="nhansu"> Nhân Sự</string>
+    <string name="ketoan">Kế Toán</string>
+    <string name="kinhdoanh"> Kinh Doanh</string>
+    <string name="marketing"> Marketing</string>
+    <string name="taichinh"> Tài Chính</string>
+    <string name="phaply">Pháp Lý</string>
+    <string name="dautu">Đầu Tư</string>
+
+    <string name="contact">Góp Ý</string>
+    <string name="truso">Trụ Sở</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+</resources>
